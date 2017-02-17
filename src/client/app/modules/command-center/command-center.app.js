@@ -1,0 +1,1 @@
+var commandCenterApp = angular.module('commandCenterApp',['ui.router']);

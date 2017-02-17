@@ -1,0 +1,17 @@
+{
+  "name": "spaces-material",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "timothyfranzke"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
