@@ -1,0 +1,36 @@
+<md-card>
+    <md-card-title layout-align="center">
+        <md-card-title-text >
+            <span class="md-headline">Become a Spaces Member</span>
+        </md-card-title-text>
+    </md-card-title>
+    <div layout-padding flex="66">
+        <form name="user">
+            <div layout="column">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>First Name</label>
+                    <input ng-model="user.firstName">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Last Name</label>
+                    <input ng-model="user.lastName">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Email</label>
+                    <input ng-model="user.email">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Password</label>
+                    <input ng-model="user.password">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Confirm Password</label>
+                    <input ng-model="user.confirmPassword">
+                </md-input-container>
+            </div>
+        </form>
+    </div>
+    <md-card-actions layout="row" layout-align="end center">
+        <md-button ng-click="submitUser(user)">Submit</md-button>
+    </md-card-actions>
+</md-card>

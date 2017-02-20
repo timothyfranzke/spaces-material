@@ -1,1 +1,1 @@
-var spacesApp = angular.module('spacesApp', ['ngMaterial', 'commandCenterApp', 'ui.router']);
+var spacesApp = angular.module('spacesApp', ['ngMaterial', 'commandCenterApp', 'userApp', 'ui.router']);

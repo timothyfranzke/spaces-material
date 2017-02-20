@@ -7,7 +7,11 @@ spacesApp.config(function($stateProvider, $urlRouterProvider){
         .state('command-center', {
             abstract:true,
             template: '<ui-view></ui-view>'
+        })
+        .state('user', {
+            abstract:true,
+            template: '<ui-view></ui-view>'
         });
 
-    $urlRouterProvider.otherwise('home')
+    $urlRouterProvider.otherwise('user')
 });

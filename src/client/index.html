@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-aria/angular-aria.js"></script>
@@ -20,15 +22,27 @@
     <content></content>
 </body>
 
+<!--user module-->
+<script src="app/modules/user/user.app.js"></script>
+<script src="app/modules/user/user.routes.js"></script>
+<script src="app/modules/user/registration/registration.controller.js"></script>
+<script src="app/modules/user/login/login.controller.js"></script>
 
+<!--command-center-->
 <script src="app/modules/command-center/command-center.app.js"></script>
 <script src="app/modules/command-center/command-center.routes.js"></script>
 <script src="app/modules/command-center/command-center-content/command-center-content.controller.js"></script>
 <script src="app/modules/command-center/command-center-content/command-center-content.directive.js"></script>
+<script src="app/modules/command-center/command-center-content/create/create.controller.js"></script>
+<script src="app/modules/command-center/command-center-content/create/dialogs/dialogs.controller.js"></script>
 <script src="app/modules/command-center/command-center-navigation/command-center-navigation.controller.js"></script>
 <script src="app/modules/command-center/command-center-navigation/command-center-navigation.directive.js"></script>
+
+<!--main-->
 <script src="app/app.js"></script>
 <script src="app/routes.js"></script>
+<script src="app/navigation/login-toggle/login-toggle.controller.js"></script>
+<script src="app/navigation/login-toggle/login-toggle.directive.js"></script>
 <script src="app/navigation/navigation.controller.js"></script>
 <script src="app/navigation/navigation.directive.js"></script>
 <script src="app/content/content.controller.js"></script>

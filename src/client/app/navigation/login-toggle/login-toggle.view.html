@@ -1,0 +1,17 @@
+<div ng-if="!user.name">
+    <a ui-sref="user.login">log-in</a>
+</div>
+<div ng-if="!!user.name">
+    <md-card>
+        <md-card-title layout="column">
+            <md-card-title-media>
+                <div class="md-media-sm card-media" layout>
+                    <md-icon style="color:grey" class="material-icons">face</md-icon>
+                </div>
+            </md-card-title-media>
+            <md-card-title-text>
+                <span class="md-headline">Welcome {{user.name}}</span>
+            </md-card-title-text>
+        </md-card-title>
+    </md-card>
+</div>

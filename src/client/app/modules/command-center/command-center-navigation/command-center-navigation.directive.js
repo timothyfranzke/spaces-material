@@ -1,10 +1,10 @@
 commandCenterApp.directive(
-    'command-center-navigation',
+    'commandCenterNavigation',
     function()
     {
         return {
             controller:'command-center-navigation.controller',
-            templateUrl: 'app/modules/command-center-navigation/command-center-navigation.view.html'
+            templateUrl: 'app/modules/command-center/command-center-navigation/command-center-navigation.view.html'
         }
     }
 );

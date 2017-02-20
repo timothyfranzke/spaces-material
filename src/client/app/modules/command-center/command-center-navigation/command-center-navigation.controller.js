@@ -1,7 +1,8 @@
 commandCenterApp.controller(
     'command-center-navigation.controller',
     [
-        function(){
+        '$mdSidenav',
+        function($mdSidenav){
 
         }
     ]

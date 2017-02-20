@@ -10,8 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-uglify": "^2.0.1",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "main-bower-files": "^2.13.1"
   }
 }

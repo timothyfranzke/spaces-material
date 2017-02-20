@@ -1,5 +1,5 @@
 commandCenterApp.directive(
-    'command-center-content',
+    'commandCenterContent',
     function()
     {
         return {
